@@ -20,8 +20,9 @@ ul{
 }
 #title{
     color:red;
-    column-span: all;
+    /* column-span: all; */
     text-align: center;
+    /* display: block; */
 }
 #form-outer{
     padding: 1em;
@@ -32,3 +33,11 @@ ul{
     border-style: solid;
     border-color: red;
 }
+[type=submit] {
+    background-color: #59ace0;
+    border:1em;
+    font-size: 1em;
+    color:red;
+    width: 8em;
+    height: 4em;
+  }
