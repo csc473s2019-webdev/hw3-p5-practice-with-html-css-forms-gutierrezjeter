@@ -32,6 +32,8 @@ ul{
     border: 1em;
     border-style: solid;
     border-color: red;
+    border-radius: 12em;
+    /* display: flex; */
 }
 [type=submit] {
     background-color: #59ace0;
