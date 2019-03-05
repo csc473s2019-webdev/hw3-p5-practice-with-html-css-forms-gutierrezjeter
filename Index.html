@@ -10,76 +10,86 @@
 <body>
     <div>
     <h1 id="title">Survey Form</h1>
-    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nostrum cumque voluptate possimus blanditiis quas non deserunt, repellendus ut aliquam voluptatibus ipsam aut exercitationem qui architecto recusandae rem excepturi maiores!</p>
+    <p id="description">
+        Give me information about you.
+    </p>
 <form action="" id="survey-form">
 <div>
-        <label for="name" id="name-label">Name:</label>
+        <label for="name" id="name-label">* Name:</label>
 
-    <input type="text" id="name" placeholder="name" required>
+    <input type="text" id="name" placeholder="Enter your name" required>
     
 </div>
     <div>
         <br>
-    <label for="email" id="email-label">Email:</label>
-    <input type="email" placeholder="email" id="email" required>
+    <label for="email" id="email-label">* Email:</label>
+    <input type="email" placeholder="Enter your email" id="email" required>
 </div>
 <div>
     <br>
-    <label for="number" id="number-label">Number:</label>
-    <input type="number" name="" id="number" placeholder="number" min="0" max="100" required>
+    <label for="number" id="number-label">* Age:</label>
+    <input type="number" id="number" placeholder="Age" min="18" max="99" required>
     <br>
 </div>
     <div >
         <br>
-        <label for="dropdown">Dropdown:</label>
+        <label for="dropdown">Which Option do you associate yourself with the most?</label>
         <select id="dropdown">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
+        <option disabled value>Select an Option</option>
+        <option value="student">Student</option>
+        <option value="healthy">Athlete</option>
+        <option value="gamer">Video Gamer</option>
+        <option value="consumer">Media Consumer</option>
+        <option value="other">Other</option>
     </select></div>
     <br>
-    <label for="radioGroup"> Radio Group</label>
+    <label for="radioGroup"> Which of the following colors do you like the most?</label>
     <div id="radioGroup">
         <br>
         <div>
-                <input type="radio" name="group1" id="r1"><label for="r1">Radio 1</label>
+                <input type="radio" name="group1" id="r1"><label for="r1">Red</label>
         </div>
         <div>
-                <input type="radio" name="group1" id="r2"><label for="r2">Radio 2</label>
+                <input type="radio" name="group1" id="r2"><label for="r2">Blue</label>
         </div>
         <div>
-                <input type="radio" name="group1" id="r3"><label for="r3">Radio 3</label>
+                <input type="radio" name="group1" id="r3"><label for="r3">Green</label>
         </div>
         <div>
-                <input type="radio" name="group1" id="r4"><label for="r4">Radio 4</label>
+                <input type="radio" name="group1" id="r4"><label for="r4">Yellow</label>
         </div>
 
     </div>
 
     <br>
-    <label for="checkBoxGroup"> Check Group</label>
+    <label for="checkBoxGroup"> Which of the following animals do you Love!(Check all that apply):</label>
     <div id="checkBoxGroup">
         <br>
         <div>
-                <input type="checkbox" name="group2" id="c1"><label for="c1">Check 1</label>
+                <input type="checkbox" name="group2" id="c1"><label for="c1">Cat</label>
         </div>
         <div>
-                <input type="checkbox" name="group2" id="c2"><label for="c2">Check 2</label>
+                <input type="checkbox" name="group2" id="c2"><label for="c2">Dog</label>
         </div>
         <div>
-                <input type="checkbox" name="group2" id="c3"><label for="c3">Check 3</label>
+                <input type="checkbox" name="group2" id="c3"><label for="c3">Monkey</label>
         </div>
         <div>
-                <input type="checkbox" name="group2" id="c4"><label for="c4">Check 4</label>
+                <input type="checkbox" name="group2" id="c4"><label for="c4">Snake</label>
+                
         </div>
-
+        <div>
+                <input type="checkbox" name="group2" id="c5"><label for="c4">Hamster</label>
+                
+        </div>
+        <div>
+                <input type="checkbox" name="group2" id="c6"><label for="c4">None of the Above</label>
+                
+        </div>
     </div>
     <div>
         <br>
-        <label for="textare">Additional Comments:</label>
+        <label for="textare">Any comments or suggestions about this survey?</label>
         <br>
         <textarea name="texarea" id="textarea" cols="30" rows="10"placeholder="additional comments"></textarea>
     </div>

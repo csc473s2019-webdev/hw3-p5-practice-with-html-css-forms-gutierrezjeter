@@ -12,4 +12,5 @@ label{
 
 select,[type=text],[type=email],[type=number]{
     background-color:turquoise;
+    color:red;
 }
