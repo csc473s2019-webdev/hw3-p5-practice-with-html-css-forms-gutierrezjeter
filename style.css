@@ -1,0 +1,15 @@
+html{
+    background-color:yellowgreen;
+}   
+select{
+    background-color: red;
+    padding: 0.5em;
+}
+
+label{
+    background-color:honeydew; 
+}
+
+select,[type=text],[type=email],[type=number]{
+    background-color:turquoise;
+}
