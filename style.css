@@ -14,3 +14,7 @@ select,[type=text],[type=email],[type=number]{
     background-color:turquoise;
     color:red;
 }
+
+ul{
+    list-style-type: none;
+}
