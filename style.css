@@ -18,3 +18,17 @@ select,[type=text],[type=email],[type=number]{
 ul{
     list-style-type: none;
 }
+#title{
+    color:red;
+    column-span: all;
+    text-align: center;
+}
+#form-outer{
+    padding: 1em;
+    margin: 4em;
+    text-align: center;
+    background-color: white;
+    border: 1em;
+    border-style: solid;
+    border-color: red;
+}
